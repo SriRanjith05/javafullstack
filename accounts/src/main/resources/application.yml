@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: accounts
+  datasource:
+    url: jdbc:h2:mem:accountsdb
+    username: admin
+    password: admin
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9003
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: accounts
+    description: Newton Apple Accounts MS
+  version: 1.0.0
+  location: Hyderabad
