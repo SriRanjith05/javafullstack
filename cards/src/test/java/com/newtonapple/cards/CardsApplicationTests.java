@@ -1,10 +1,10 @@
-package com.newtonapple.accounts;
+package com.newtonapple.cards;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AccountsApplicationTests {
+class CardsApplicationTests {
 
 	@Test
 	void contextLoads() {
