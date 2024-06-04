@@ -9,4 +9,5 @@ public class CardsDto {
 	private int totalLimit;
 	private String amountUsed;
 	private String availableAmount;
+	
 }
