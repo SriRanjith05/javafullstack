@@ -2,7 +2,7 @@ package com.newtonapple.cards.exception;
 
 public class CardAlreadyExistsException extends RuntimeException{
 	
-	public void CustomerAlreadyExistsException(String msg) {
+	public CardAlreadyExistsException(String msg) {
 		super(msg);
 	}
 

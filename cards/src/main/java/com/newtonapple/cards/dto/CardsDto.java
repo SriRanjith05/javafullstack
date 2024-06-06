@@ -1,8 +1,9 @@
 package com.newtonapple.cards.dto;
 
-public class CardsDto {
+import lombok.Data;
 
-	
+@Data
+public class CardsDto {
 	private String mobileNumber;
 	private String cardNumber;
 	private String cardType;

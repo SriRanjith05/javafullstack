@@ -4,7 +4,7 @@ import com.newtonapple.cards.dto.CardsDto;
 
 public interface ICardsService {
 	
-	void createCard(CardsDto cardsDto);
+	void createCard(String mobileNumber);
 	
 	CardsDto fetchCard(String mobileNumber);
 	
